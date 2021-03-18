@@ -1,0 +1,105 @@
+body {
+    text-align: center;
+    padding-top: 800px;
+    background-color: beige;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    text-shadow: 1px 1px grey;
+}
+
+.profile {
+    border-radius: 50%;
+    width: 200px;
+    margin-bottom: 10px;
+
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 700px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.85;
+    background: linear-gradient(#35e865 0%, #16f5e2 100%);
+    display: table;
+    width: 100%;
+    z-index: 9;
+    height 100%;
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.line {
+    width: 70px;
+    height: 6px;
+    background-color: aqua;
+    text-align: center;
+    margin: 8px auto;
+    margin-bottom: 30px:
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+
+}
+
+.menu {
+    list-style: none;
+    font-family: 'Lobster', cursive;
+    position:fixed;
+    z-index: 10;
+    top:0px;
+    cursor: pointer;
+    background-color: azure;
+    width:100%;
+    text-align:center; 
+        margin-top:0px;
+}
+
+.link {
+    float: left;
+    color: #000;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 50px;
+    padding-right: 25px;
+    display:inline;
+    font-size: 20px;
+
+}
+
+.link:hover {
+    background-color: darkviolet;
+    text-decoration: underline;
+    font-size: 25px;
+    
+
+}
+
+p {
+    font-family: 'Libre Baskerville', serif;
+    color: firebrick;
+}
+.img1 {
+    width:450px;
+    height:500px;
+}
+#Contact a{
+    text-shadow: none !important;
+}
